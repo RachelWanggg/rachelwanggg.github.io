@@ -13,3 +13,19 @@ h1 {
 p {
     color: #666;
 }
+
+#footer {
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+#footer a {
+    margin: 0 10px;
+    color: #d78b10;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    color: #b8730e;
+}
