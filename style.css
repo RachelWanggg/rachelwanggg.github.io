@@ -1,31 +1,12 @@
-body {
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-h1 {
-    color: #d78b10;
-    text-align: center;
-}
-
-p {
-    color: #666;
-}
-
-#footer {
-    text-align: center;
-    margin: 20px 0;
-    padding: 20px;
-}
-
-#footer a {
-    margin: 0 10px;
-    color: #d78b10;
-    text-decoration: none;
-}
-
-#footer a:hover {
-    color: #b8730e;
+shaped-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
