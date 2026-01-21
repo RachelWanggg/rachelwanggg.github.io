@@ -14,29 +14,32 @@
 <body>
     <header class="pb-4">
         <div class="py-2 d-flex justify-content-between align-items-center">
-                <ul class="nav me-auto">
-                    <li class="nav-item">
-                        <h1 class="nav-link px-4 fw-bold" >RACHEL WANG</h1>
-                    </li>
-                </ul>
+            <ul class="nav me-auto">
+                <li class="nav-item">
+                    <h1 class="nav-link px-4 fw-bold">RACHEL WANG</h1>
+                </li>
+            </ul>
 
-                <ul class="nav align-items-center">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item"><a href="https://github.com/RachelWanggg" target="_blank" class="nav-link"><i class="bi bi-github"></i></a></li>
-                    <li class="nav-item"><a href="https://www.linkedin.com/in/ruiqi-wang-rach01/" target="_blank" class="nav-link"><i class="bi bi-linkedin"></i></a></li>
-                    <li class="nav-item"><a href="https://www.instagram.com/ruikikiw/" target="_blank" class="nav-link"><i class="bi bi-instagram"></i></a></li>
-                    <li class="nav-item"><a href="project.html" class="nav-link">Projects</a></li>
-                    <li class="nav-item"><a href="mailto:rachelwangrq2@gmail.com" class="nav-link">Contact</a></li>
-                </ul>
+            <ul class="nav align-items-center">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item"><a href="https://github.com/RachelWanggg" target="_blank" class="nav-link"><i
+                            class="bi bi-github"></i></a></li>
+                <li class="nav-item"><a href="https://www.linkedin.com/in/ruiqi-wang-rach01/" target="_blank"
+                        class="nav-link"><i class="bi bi-linkedin"></i></a></li>
+                <li class="nav-item"><a href="https://www.instagram.com/ruikikiw/" target="_blank" class="nav-link"><i
+                            class="bi bi-instagram"></i></a></li>
+                <li class="nav-item"><a href="project.html" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="mailto:rachelwangrq2@gmail.com" class="nav-link">Contact</a></li>
+            </ul>
 
-            </div>
+        </div>
     </header>
-    
+
     <div class="container p-5">
         <h1 class="text-center mb-5">Projects</h1>
-        
+
         <div class="row">
             <!-- Shoe Store Project -->
             <div class="col-md-6 col-lg-4 mb-4">
@@ -46,7 +49,7 @@
                         <span class="badge bg-secondary mb-3">Ruby</span>
                         <div class="row g-2 mb-3">
                             <div class="col-6">
-                                <img src="image/project/shoe_store_admin.png" class="img-fluid project-image-clickable" 
+                                <img src="image/project/shoe_store_admin.png" class="img-fluid project-image-clickable"
                                     alt="Result of store project" onclick="openImageOverlay(this.src)">
                             </div>
                             <div class="col-6">
@@ -55,13 +58,16 @@
                             </div>
                         </div>
                         <p class="card-text">An e-commerce shoe store application built with Ruby on Rails.</p>
+                        <a href="https://shoes-store-srkd.onrender.com/" target="_blank" class="btn btn-outline-dark">
+                             Template
+                        </a>
                         <a href="https://github.com/RachelWanggg/shoes_store" target="_blank" class="btn btn-outline-dark">
                             <i class="bi bi-github"></i> View on GitHub
                         </a>
                     </div>
                 </div>
             </div>
-            
+
             <!-- NLP Project -->
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card h-100 shadow-sm">
@@ -69,48 +75,65 @@
                         <h5 class="card-title">NLP Topic Model Project</h5>
                         <span class="badge bg-secondary mb-3">Python</span>
                         <img src="image/project/NLP_project.png" class="img-fluid project-image-clickable"
-                    alt="Result of NLP project" onclick="openImageOverlay(this.src)">
-                        <p class="card-text">Compare accurancy of hybrid method with different Regressions and Topic Modellings</p>
-                        <a href="https://github.com/RachelWanggg/Topic_Model_on_Hate_Speech" target="_blank" class="btn btn-outline-dark">
+                            alt="Result of NLP project" onclick="openImageOverlay(this.src)">
+                        <p class="card-text">Compare accurancy of hybrid method with different Regressions and Topic
+                            Modellings</p>
+                        <a href="https://github.com/RachelWanggg/Topic_Model_on_Hate_Speech" target="_blank"
+                            class="btn btn-outline-dark">
                             <i class="bi bi-github"></i> View on GitHub
                         </a>
                     </div>
                 </div>
             </div>
-            
-            <!-- Add more projects here following the same template structure -->
+
+            <!--FlightPriceTracker -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Flight Price Tracker Project</h5>
+                        <span class="badge bg-secondary mb-3">Python</span>
+                        <img src="image/project/FlightPriceTracker.png" class="img-fluid project-image-clickable"
+                            alt="Result of NLP project" onclick="openImageOverlay(this.src)">
+                        <p class="card-text">Flight price tracker with Google search API</p>
+                        <a href="https://flightpricetracker-8oeq.onrender.com/" target ="_blank"> Template
+                        <a href="https://github.com/RachelWanggg/FlightPriceTracker" target="_blank"
+                            class="btn btn-outline-dark">
+                            <i class="bi bi-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
 
-    <footer class="px-4">
-        <p>&copy; 2026 Rachel Wang</p>
-    </footer>
+        <footer class="px-4">
+            <p>&copy; 2026 Rachel Wang</p>
+        </footer>
 
-    <!-- Image Overlay Modal -->
-    <div id="imageOverlay" class="image-overlay" onclick="closeImageOverlay()">
-        <span class="close-overlay" onclick="closeImageOverlay()">&times;</span>
-        <img class="overlay-image" id="overlayImg" onclick="event.stopPropagation()">
-    </div>
+        <!-- Image Overlay Modal -->
+        <div id="imageOverlay" class="image-overlay" onclick="closeImageOverlay()">
+            <span class="close-overlay" onclick="closeImageOverlay()">&times;</span>
+            <img class="overlay-image" id="overlayImg" onclick="event.stopPropagation()">
+        </div>
 
-    <script>
-        function openImageOverlay(imageSrc) {
-            document.getElementById('overlayImg').src = imageSrc;
-            document.getElementById('imageOverlay').style.display = 'flex';
-            document.body.style.overflow = 'hidden'; // Prevent scrolling
-        }
-
-        function closeImageOverlay() {
-            document.getElementById('imageOverlay').style.display = 'none';
-            document.body.style.overflow = 'auto'; // Restore scrolling
-        }
-
-        // Close overlay when pressing Escape key
-        document.addEventListener('keydown', function(event) {
-            if (event.key === 'Escape') {
-                closeImageOverlay();
+        <script>
+            function openImageOverlay(imageSrc) {
+                document.getElementById('overlayImg').src = imageSrc;
+                document.getElementById('imageOverlay').style.display = 'flex';
+                document.body.style.overflow = 'hidden'; // Prevent scrolling
             }
-        });
-    </script>
+
+            function closeImageOverlay() {
+                document.getElementById('imageOverlay').style.display = 'none';
+                document.body.style.overflow = 'auto'; // Restore scrolling
+            }
+
+            // Close overlay when pressing Escape key
+            document.addEventListener('keydown', function (event) {
+                if (event.key === 'Escape') {
+                    closeImageOverlay();
+                }
+            });
+        </script>
 </body>
 
 </html>
